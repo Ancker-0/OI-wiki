@@ -38,7 +38,7 @@ $$
 
 ### 极角排序
 
-C 语言有一个库函数叫做 `atan2(double y,double x)`，可以返回 $\theta\in (-\pi,\pi]$，$\theta =\arctan \frac{y}{x}$。
+C 语言有一个库函数叫做 `atan2(double y,double x)`，可以返回 $\theta\in [-\pi,\pi]$，$\theta =\arctan \frac{y}{x}$。
 
 直接以向量为自变量，调用这个函数，以返回值为关键字排序，得到新的边（向量）集。
 
